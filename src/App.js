@@ -6,13 +6,14 @@ import './App.css';
 // import Loops from './5.Loops';
 // import EventPlayground from './6.Events';
 // import Stateful from './7.State';
-import Countdown from './8.LifecycleAndEffects';
+// import Countdown from './8.LifecycleAndEffects';
+import CountProvider from './9.Context';
 
 
 function App() {
   return (
       <div>
-        <Countdown hr={1} min={45} sec={0} />
+        <CountProvider />
       </div>
   );
 }
